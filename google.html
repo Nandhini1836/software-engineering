@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google Clone</title>
+
+<style>
+body {
+    margin: 0;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: white;
+    font-family: Inter, Arial, sans-serif;
+}
+
+/* Top bar */
+.topbar {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    top: 0;
+    background: #D9D9D9;
+}
+
+.gmail {
+    position: absolute;
+    left: 942px;
+    top: 106px;
+    font-size: 32px;
+}
+
+.images {
+    position: absolute;
+    left: 1064px;
+    top: 106px;
+    font-size: 32px;
+}
+
+/* Apps dots */
+.apps {
+    position: absolute;
+    left: 1228px;
+    top: 94px;
+    width: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,12px);
+    gap: 15px;
+}
+
+.apps div {
+    width: 12px;
+    height: 12px;
+    background: #5A5A5A;
+    border-radius: 50%;
+}
+
+/* Profile */
+.profile {
+    position: absolute;
+    width: 79px;
+    height: 82px;
+    left: 1339px;
+    top: 85px;
+    background: #459AD2;
+    border-radius: 50%;
+    color: #FDF4F4;
+    font-size: 32px;
+    text-align: center;
+    line-height: 82px;
+}
+
+/* Google Logo */
+.logo {
+    position: absolute;
+    width: 546px;
+    height: 191px;
+    left: 460px;
+    top: 209px;
+}
+
+/* Search Bar */
+.search-bar {
+    position: absolute;
+    width: 1107px;
+    height: 94px;
+    left: 195px;
+    top: 418px;
+    background: white;
+    border-radius: 60px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
+
+/* Search Icon */
+.search {
+    position: absolute;
+    left: 220px;
+    top: 435px;
+    font-size: 45px;
+}
+
+/* Mic */
+.mic {
+    position: absolute;
+    left: 1216px;
+    top: 438px;
+    font-size: 45px;
+}
+
+/* Buttons */
+.button {
+    position: absolute;
+    height: 67px;
+    background: #D9D9D9;
+    text-align: center;
+    line-height: 67px;
+    font-size: 32px;
+}
+
+.google-search {
+    width: 263px;
+    left: 428px;
+    top: 571px;
+}
+
+.lucky {
+    width: 311px;
+    left: 769px;
+    top: 571px;
+}
+
+/* Languages */
+.languages {
+    position: absolute;
+    left: 349px;
+    top: 697px;
+    font-size: 32px;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 50px;
+    top: 881px;
+    background: #D9D9D9;
+}
+
+.footer-text {
+    position: absolute;
+    left: 72px;
+    top: 894px;
+    font-size: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="topbar"></div>
+
+<div class="gmail">Gmail</div>
+<div class="images">Images</div>
+
+<div class="apps">
+    <div></div><div></div><div></div>
+    <div></div><div></div><div></div>
+    <div></div><div></div><div></div>
+</div>
+
+<div class="profile">MN</div>
+
+<img src="image.png" class="logo">
+
+<div class="search-bar"></div>
+
+<div class="search">🔍</div>
+<div class="mic">🎤</div>
+
+<div class="button google-search">
+    Google Search
+</div>
+
+<div class="button lucky">
+    I'm Feeling Lucky
+</div>
+
+<div class="languages">
+Google offered in: తెలుగు हिन्दी தமிழ் ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ
+</div>
+
+<div class="footer"></div>
+
+<div class="footer-text">
+About &nbsp;&nbsp;
+Advertising &nbsp;&nbsp;
+Business &nbsp;&nbsp;
+How Search works &nbsp;&nbsp;
+Privacy &nbsp;&nbsp;
+Terms &nbsp;&nbsp;
+Settings
+</div>
+
+</body>
+</html>
